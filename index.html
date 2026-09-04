@@ -63,7 +63,7 @@
     .trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:28px;color:var(--muted);font-size:13px}
     .trust b{color:#fff}
     .hero-photo{position:relative}
-    .hero-photo img{width:100%;height:570px;object-fit:cover;border-radius:28px;border:1px solid #2a3948;box-shadow:var(--shadow)}
+    .hero-photo img{width:100%;height:570px;object-fit:contain;background:#0b121a;border-radius:28px;border:1px solid #2a3948;box-shadow:var(--shadow)}
     .photo-card{position:absolute;left:-24px;bottom:24px;max-width:290px;background:rgba(8,13,20,.94);border:1px solid #334456;border-radius:18px;padding:17px;box-shadow:var(--shadow)}
     .photo-card strong{display:block;font-size:18px}.photo-card span{color:var(--muted);font-size:13px}
     section{padding:88px 0}
@@ -78,7 +78,7 @@
     .card h3{font-size:20px;line-height:1.15;margin:0 0 10px}.card p{color:var(--muted);margin:0 0 15px}
     .list{padding:0;margin:0;list-style:none;display:grid;gap:8px}.list li{color:#d8e0e8;font-size:14px;padding-left:22px;position:relative}.list li:before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:900}
     .feature{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}
-    .feature-image{min-height:470px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line)}.feature-image img{width:100%;height:100%;object-fit:cover}
+    .feature-image{min-height:470px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:#0b121a;display:grid;place-items:center}.feature-image img{width:100%;height:100%;object-fit:contain;background:#0b121a}
     .dark-panel{background:#0c131d;border:1px solid var(--line);border-radius:var(--radius);padding:36px}
     .checks{display:grid;gap:16px;margin-top:24px}.check{display:flex;gap:13px;align-items:flex-start}.check .tick{width:26px;height:26px;border-radius:50%;background:rgba(104,192,106,.14);color:var(--green);display:grid;place-items:center;font-weight:900;flex:0 0 auto}.check strong{display:block}.check span{color:var(--muted);font-size:14px}
     .pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
@@ -100,7 +100,7 @@
     .mobile-cta{display:none}
     @media(max-width:950px){
       .hero-grid,.feature,.contact{grid-template-columns:1fr}
-      .hero-photo img{height:430px}.photo-card{left:14px}
+      .hero-photo img{height:430px;object-fit:contain}.photo-card{left:14px}
       .services,.pricing{grid-template-columns:repeat(2,1fr)}
       .pricing-more{grid-template-columns:1fr}
       .process{grid-template-columns:repeat(2,1fr)}
@@ -111,7 +111,7 @@
     @media(max-width:640px){
       .topbar .container{justify-content:center}.topbar .extra{display:none}
       .container{width:min(calc(100% - 22px),var(--max))}
-      .hero{padding:48px 0}.hero-photo img{height:340px;border-radius:20px}
+      .hero{padding:48px 0}.hero-photo img{height:340px;border-radius:20px;object-fit:contain}
       h1{font-size:46px}.lead{font-size:17px}
       section{padding:62px 0}.services,.pricing,.process{grid-template-columns:1fr}
       .card,.dark-panel{padding:22px}.contact{padding:26px;border-radius:20px}
@@ -128,8 +128,8 @@
     "@type":"AutoRepair",
     "name":"Auto Poradca Banská Bystrica",
     "url":"https://www.autoporadcabanskabystrica.sk/",
-    "telephone":"+421918123456",
-    "email":"autoporadca@email.sk",
+    "telephone":"+421948316135",
+    "email":"jpsautoservis@gmail.com",
     "description":"Nezávislé automobilové poradenstvo pri kúpe, predaji a riešení porúch vozidiel.",
     "areaServed":{
       "@type":"City",
@@ -182,7 +182,7 @@
         <h1>Pred kúpou auta sa <span class="accent">najprv poraďte.</span></h1>
         <p class="lead">Nezávislý Auto Poradca vám pomôže pri výbere, kúpe, predaji aj riešení poruchy vozidla. Aby ste nekupovali naslepo, zbytočne nepreplatili a vedeli, za čo platíte.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="tel:+421918123456">☎ Zavolať: 0918 123 456</a>
+          <a class="btn btn-primary" href="tel:+421948316135">☎ Zavolať: 0948 316 135</a>
           <a class="btn btn-ghost" href="#cennik">Pozrieť cenník</a>
         </div>
         <div class="trust">
@@ -438,13 +438,13 @@
           <h2>Nechcete kúpiť auto naslepo?</h2>
           <p>Zavolajte alebo napíšte. Dohodneme si, čo potrebujete preveriť a ktorý rozsah služby je pre vás vhodný.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="tel:+421918123456">☎ 0918 123 456</a>
-            <a class="btn btn-ghost" href="mailto:autoporadca@email.sk">✉ Napísať e-mail</a>
+            <a class="btn btn-primary" href="tel:+421948316135">☎ 0948 316 135</a>
+            <a class="btn btn-ghost" href="mailto:jpsautoservis@gmail.com">✉ Napísať e-mail</a>
           </div>
         </div>
         <div class="contact-items">
-          <a class="contact-item" href="tel:+421918123456"><span class="ci">☎</span><div><small>Telefón</small><strong>0918 123 456</strong></div></a>
-          <a class="contact-item" href="mailto:autoporadca@email.sk"><span class="ci">✉</span><div><small>E-mail</small><strong>autoporadca@email.sk</strong></div></a>
+          <a class="contact-item" href="tel:+421948316135"><span class="ci">☎</span><div><small>Telefón</small><strong>0948 316 135</strong></div></a>
+          <a class="contact-item" href="mailto:jpsautoservis@gmail.com"><span class="ci">✉</span><div><small>E-mail</small><strong>jpsautoservis@gmail.com</strong></div></a>
           <div class="contact-item"><span class="ci">⌖</span><div><small>Pôsobnosť</small><strong>Banská Bystrica a okolie</strong></div></div>
         </div>
       </div>
@@ -460,7 +460,7 @@
 </footer>
 
 <div class="mobile-cta">
-  <a class="btn btn-primary" href="tel:+421918123456">☎ Zavolať</a>
+  <a class="btn btn-primary" href="tel:+421948316135">☎ Zavolať</a>
   <a class="btn btn-ghost" href="#kontakt">Kontakt</a>
 </div>
 

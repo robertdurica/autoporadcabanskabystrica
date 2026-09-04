@@ -11,8 +11,8 @@ Statický web pripravený na GitHub Pages.
 
 ## Pred zverejnením
 V dodaných podkladoch boli uvedené:
-- telefón: 0918 123 456
-- e-mail: autoporadca@email.sk
+- telefón: 0948 316 135
+- e-mail: jpsautoservis@gmail.com
 - pôsobnosť: Banská Bystrica a okolie
 
 Ak sú tieto údaje iba ukážkové, nahraďte ich v `index.html` pred publikovaním. Telefón, e-mail, canonical URL, Open Graph URL a JSON-LD sú už nastavené na zamýšľanú doménu.
